@@ -82,4 +82,4 @@ production:
   <<: *default
   database: annaiavalon_production
   username: annaiavalon
-  password: <%= ENV['ANNAIAVALON_DATABASE_PASSWORD'] %>
+  password: annaiavalon
